@@ -34,6 +34,8 @@ UPLOAD_FODER = 'static/profile_pics'
 app.config["UPLOAD_FODER"] = UPLOAD_FODER
 Session(app)
 
+
+
 # Configure CS50 Library to use SQLite database
 #db = SQL("sqlite:///finalProject.db")
 db = SQL("postgres://lonyvvuzeobjti:ee37389a1f07dceb3bb78499bca24a44be84b8af8a45f085187737ecfd2fca1b@ec2-52-49-120-150.eu-west-1.compute.amazonaws.com:5432/d81b3pnaicuv9u")
